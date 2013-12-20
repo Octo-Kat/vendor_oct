@@ -23,4 +23,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 # T-Mobile theme engine
-include vendor/oct/config/themes_common.mk
+#include vendor/oct/config/themes_common.mk
