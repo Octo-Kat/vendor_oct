@@ -21,6 +21,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy
+    
+# OctOS Packages   
+PRODUCT_PACKAGES += \
+    OctSun \
+    OctPhase \
+    OctPapers 
 
 # T-Mobile theme engine
 #include vendor/oct/config/themes_common.mk
