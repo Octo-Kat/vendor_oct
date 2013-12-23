@@ -26,7 +26,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     OctSun \
     OctPhase \
-    OctPapers 
+    OctPapers \
+    Torch
 
 # T-Mobile theme engine
-#include vendor/oct/config/themes_common.mk
+include vendor/oct/config/themes_common.mk
