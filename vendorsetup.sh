@@ -13,3 +13,8 @@ add_lunch_combo oct_jfltetmo-userdebug
 add_lunch_combo oct_jflteusc-userdebug
 add_lunch_combo oct_jfltevzw-userdebug
 add_lunch_combo oct_jfltexx-userdebug
+add_lunch_combo oct_m7att-userdebug
+add_lunch_combo oct_m7spr-userdebug
+add_lunch_combo oct_m7tmo-userdebug
+add_lunch_combo oct_m7ul-userdebug
+add_lunch_combo oct_m7vzw-userdebug

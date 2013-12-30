@@ -57,3 +57,18 @@ endif
 ifeq (oct_jfltexx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltexx.mk
 endif
+ifeq (oct_m7att,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_m7att.mk
+endif
+ifeq (oct_m7spr,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_m7spr.mk
+endif
+ifeq (oct_m7tmo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_m7tmo.mk
+endif
+ifeq (oct_m7ul,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_m7ul.mk
+endif
+ifeq (oct_m7vzw,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_m7vzw.mk
+endif
