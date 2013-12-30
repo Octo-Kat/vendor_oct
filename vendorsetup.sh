@@ -4,6 +4,7 @@ add_lunch_combo oct_d2spr-userdebug
 add_lunch_combo oct_d2tmo-userdebug
 add_lunch_combo oct_d2usc-userdebug
 add_lunch_combo oct_d2vzw-userdebug
+add_lunch_combo oct_epicmtd-userdebug
 add_lunch_combo oct_jflteatt-userdebug
 add_lunch_combo oct_jfltecan-userdebug
 add_lunch_combo oct_jfltecri-userdebug

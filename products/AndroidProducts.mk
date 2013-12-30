@@ -30,6 +30,9 @@ endif
 ifeq (oct_d2vzw,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2vzw.mk
 endif
+ifeq (oct_epicmtd,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_epicmtd.mk
+endif
 ifeq (oct_jflteatt,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflteatt.mk
 endif
