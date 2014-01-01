@@ -25,6 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OctOS Packages   
 PRODUCT_PACKAGES += \
     OctSun \
+    OctOTA \
     OctPhase \
     OctPapers
     
