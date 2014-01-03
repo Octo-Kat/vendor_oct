@@ -1,4 +1,5 @@
-# Copyright (C) 2013 OctOS
+# Copyright (C) 2014 Team-OctOS
+#         Banana pancakes are tasty
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,7 +27,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/oct/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/oct/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
-    
+
+# Enable SIP+VoIP
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+
 # OctOS Packages   
 PRODUCT_PACKAGES += \
     OctSun \
