@@ -21,6 +21,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy
+	
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/oct/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/oct/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
     
 # OctOS Packages   
 PRODUCT_PACKAGES += \
@@ -52,7 +57,7 @@ endif
 
 # Set all versions
 OCT_VERSION := Oct-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(OCT_BUILD_TYPE)$(OCT_POSTFIX)
-OCT_MOD_VERSION := Oct-$(OCT_BUILD)-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(OCT_BUILD_TYPE)$(OCT_POSTFIX)
+OCT_MOD_VERSION := Oct-$(OCT_BUILD)$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(OCT_BUILD_TYPE)$(OCT_POSTFIX)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
