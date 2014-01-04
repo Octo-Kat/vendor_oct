@@ -15,27 +15,27 @@ BASE=`pwd`
 BRUTECRUSH="-brute"
 TMPDIR=/tmp/opticharge-$$
 . $ANDROID_BUILD_TOP/vendor/oct/tools/functions
+APKCERTS=$OUT/obj/PACKAGING/apkcerts_intermediates/${TARGET_PRODUCT}-apkcerts-eng.$USER.txt
 
 if [ -z "$BRUTE_PNGCRUSH" ]
 then
     BRUTECRUSH=""
 fi
 
-if [ "$APKCERTS" = "" ];
-then
-    if [ "$TARGET_BUILD_VARIANT" = "userdebug" ]; then
-       TARGET_BUILD_VARIANT="eng"
-    elif [ "$TARGET_BUILD_VARIANT" = "user" ]; then
-       TARGET_BUILD_VARIANT="eng"
-    fi
+#if [ "$APKCERTS" = "" ];
+#then
+#    if [ "$TARGET_BUILD_VARIANT" = "userdebug" ]; then
+#       TARGET_BUILD_VARIANT="eng"
+#    elif [ "$TARGET_BUILD_VARIANT" = "user" ]; then
+#       TARGET_BUILD_VARIANT="eng"
+#    fi
 
-    APKCERTS=$OUT/obj/PACKAGING/apkcerts_intermediates/$TARGET_PRODUCT-target_files-$TARGET_BUILD_VARIANT.$USER/META/apkcerts.txt
-    if [ ! -f "$APKCERTS" ];
-    then
-        echo $CL_RED"Set APKCERTS to the path to your apkcerts.txt file"$CL_RST
-        exit 1;
-    fi
-fi
+#    if [ ! -f "$APKCERTS" ];
+#    then
+#        echo $CL_RED"Set APKCERTS to the path to your apkcerts.txt file"$CL_RST
+#        exit 1;
+#    fi
+#fi
 
 if [ ! -f "$APKCERTS" ];
 then
