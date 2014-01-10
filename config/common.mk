@@ -61,11 +61,12 @@ ifndef OCT_BUILD_TYPE
 endif
 
 # Set all versions
-OCT_VERSION := OctOS-$(OCT_POSTFIX)-$(TARGET_PRODUCT)
-OCT_MOD_VERSION := OctOS-$(OCT_POSTFIX)-$(TARGET_PRODUCT)
+OCT_VERSION := Oct-$(OCT_POSTFIX)
+OCT_MOD_VERSION := Oct-$(OCT_BUILD)-$(OCT_POSTFIX)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
     oct.ota.version=$(OCT_POSTFIX) \
     ro.oct.version=$(OCT_VERSION) \
     ro.modversion=$(OCT_MOD_VERSION)
+    
