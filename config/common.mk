@@ -61,6 +61,7 @@ ifndef OCT_BUILD_TYPE
 endif
 
 # Set all versions
+## Don't TOUCH!  This controls the OTA update function.
 OCT_VERSION := Oct-$(OCT_POSTFIX)
 OCT_MOD_VERSION := Oct-$(OCT_POSTFIX)-$(OCT_BUILD)
 
