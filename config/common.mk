@@ -22,7 +22,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy
-	
+
+# Dubbsy property overides
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.dubbsy.is.awesome=true
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/oct/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
@@ -37,7 +41,8 @@ PRODUCT_PACKAGES += \
     OctSun \
     OctOTA \
     OctPhase \
-    OctPapers
+    OctPapers \
+    HallMonitor
     
 # Prebuilt Apps
 PRODUCT_COPY_FILES +=  \
@@ -62,6 +67,7 @@ endif
 
 # Set all versions
 ## Don't TOUCH!  This controls the OTA update function.
+##I touched it, whatcha gonna do about it you big crazy purple guy you? <pelvic thrust>
 OCT_VERSION := Oct-$(OCT_POSTFIX)
 OCT_MOD_VERSION := Oct-$(OCT_POSTFIX)-$(OCT_BUILD)
 
