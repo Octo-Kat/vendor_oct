@@ -24,8 +24,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 # Dubbsy property overides
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.dubbsy.is.awesome=true
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.dubbsy.is.awesome=true
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -41,8 +41,7 @@ PRODUCT_PACKAGES += \
     OctSun \
     OctOTA \
     OctPhase \
-    OctPapers \
-    HallMonitor
+    OctPapers
     
 # Prebuilt Apps
 PRODUCT_COPY_FILES +=  \
