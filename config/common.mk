@@ -25,7 +25,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Dubbsy property overides
 #PRODUCT_PROPERTY_OVERRIDES += \
-#    ro.dubbsy.is.awesome=true
+#    dubbsy.is.awesome=true
+#    treken.is.lame=false
+#    grommish.is.huggable=true
+#    hlxanthus.is.a.parrot=true
+#    jason.g.makes.pretty=1
+#    don.is.besttester.ever=1
+#    it.is.simons.fault=true
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -41,8 +47,9 @@ PRODUCT_PACKAGES += \
     OctSun \
     OctOTA \
     OctPhase \
-    OctPapers
-    
+    OctPapers \
+    HallMonitor
+
 # Prebuilt Apps
 PRODUCT_COPY_FILES +=  \
     vendor/oct/prebuilt/Torch.apk:system/app/Torch.apk 
@@ -66,7 +73,7 @@ endif
 
 # Set all versions
 ## Don't TOUCH!  This controls the OTA update function.
-##I touched it, whatcha gonna do about it you big crazy purple guy you? <pelvic thrust>
+##I touched it, whatcha gonna do about it you big crazy purple guy you? <pelvic thrust> <pelvic thrust two times>
 OCT_VERSION := Oct-$(OCT_POSTFIX)
 OCT_MOD_VERSION := Oct-$(OCT_POSTFIX)-$(OCT_BUILD)
 
