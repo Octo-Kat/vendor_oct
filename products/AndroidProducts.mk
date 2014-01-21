@@ -19,7 +19,7 @@ ifeq (oct_d2cri,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2cri.mk
 endif
 ifeq (oct_d2csp,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2csp.mk
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2mtr.mk
 endif
 ifeq (oct_d2spr,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2spr.mk
