@@ -21,6 +21,9 @@ endif
 ifeq (oct_d2csp,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2csp.mk
 endif
+ifeq (oct_d2spr,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2spr.mk
+endif
 ifeq (oct_d2tmo,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2tmo.mk
 endif
