@@ -1,4 +1,4 @@
-# Copyright (C) 2013 OctOS
+# Copyright (C) 2014 Team-OctOS
 #
 # Licensed under the Apurityche License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,6 +23,9 @@ ifeq (oct_d2csp,$(TARGET_PRODUCT))
 endif
 ifeq (oct_d2spr,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2spr.mk
+endif
+ifeq (oct_d2spi,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2spi.mk
 endif
 ifeq (oct_d2tmo,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2tmo.mk
