@@ -49,6 +49,11 @@ PRODUCT_PACKAGES += \
     OctPhase \
     OctPapers \
     HallMonitor
+    
+# Screen recorder
+PRODUCT_PACKAGES += \
+    libscreenrecorder \
+    ScreenRecorder
 
 # Prebuilt Apps
 PRODUCT_COPY_FILES +=  \
