@@ -24,14 +24,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 # Dubbsy property overides
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    dubbsy.is.awesome=true
-#    treken.is.lame=false
-#    grommish.is.huggable=true
-#    hlxanthus.is.a.parrot=true
-#    jason.g.makes.pretty=1
-#    don.is.besttester.ever=1
-#    it.is.simons.fault=true
+PRODUCT_PROPERTY_OVERRIDES += \
+    team-octos.is.awesome=true
+    keeping.open-source.open=1
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
