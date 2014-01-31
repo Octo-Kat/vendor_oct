@@ -15,8 +15,9 @@
 # Check for target product
 ifeq (oct_jfltecsp,$(TARGET_PRODUCT))
 
-# Include OctOS common configuration
-include vendor/oct/config/common.mk
+# Inherit some common OctOS stuff.
+$(call inherit-product, vendor/oct/config/cdma.mk)
+$(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/samsung/jfltecsp/full_jfltecsp.mk)

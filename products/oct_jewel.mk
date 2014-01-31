@@ -1,4 +1,6 @@
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common OctOS stuff.
+$(call inherit-product, vendor/oct/config/gsm.mk)
+$(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)

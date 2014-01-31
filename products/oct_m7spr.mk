@@ -14,9 +14,9 @@
 
 # Check for target product
 ifeq (oct_m7spr,$(TARGET_PRODUCT))
-
-# Include OctOS common configuration
-include vendor/oct/config/common.mk
+# Inherit some common OctOS stuff.
+$(call inherit-product, vendor/oct/config/cdma.mk)
+$(call inherit-product, vendor/oct/config/common_full_phone.mk)k
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/htc/m7spr/full_m7spr.mk)
