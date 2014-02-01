@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
     OctOTA \
     OctPhase \
     OctPapers \
+    Torch \
     HallMonitor
     
 # Screen recorder
@@ -52,7 +53,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt Apps
 PRODUCT_COPY_FILES +=  \
-    vendor/oct/prebuilt/Torch.apk:system/app/Torch.apk 
+#    vendor/oct/prebuilt/Torch.apk:system/app/Torch.apk 
 
 # T-Mobile theme engine
 include vendor/oct/config/themes_common.mk
