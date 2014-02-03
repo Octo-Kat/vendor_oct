@@ -39,12 +39,13 @@ PRODUCT_COPY_FILES += \
 
 # OctOS Packages   
 PRODUCT_PACKAGES += \
+    HallMonitor \
     OctSun \
     OctOTA \
     OctPhase \
     OctPapers \
-    Torch \
-    HallMonitor
+    OmniSwitch \
+    Torch
     
 # Screen recorder
 PRODUCT_PACKAGES += \
