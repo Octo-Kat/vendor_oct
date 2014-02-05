@@ -17,7 +17,7 @@ ifeq (oct_jfltecri,$(TARGET_PRODUCT))
 
 # Inherit some common OctOS stuff.
 $(call inherit-product, vendor/oct/config/cdma.mk)
-$(call inherit-product, vendor/oct/config/common_full_phone.mk
+$(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/samsung/jfltecri/full_jfltecri.mk)
