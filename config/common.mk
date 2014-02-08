@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
 # OctOS Packages   
 PRODUCT_PACKAGES += \
     HallMonitor \
+    OctOSAbout \
     OctSun \
     OctOTA \
     OctPhase \
