@@ -39,6 +39,9 @@ endif
 ifeq (oct_epicmtd,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_epicmtd.mk
 endif
+ifeq (oct_jflte,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflte.mk
+endif
 ifeq (oct_jflteatt,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflteatt.mk
 endif
