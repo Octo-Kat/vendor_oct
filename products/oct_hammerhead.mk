@@ -20,7 +20,7 @@ $(call inherit-product, vendor/oct/config/gsm.mk)
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/LGE/hammerhead/full_hammerhead.mk)
+$(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Override AOSP build properties
 # Set those variables here to overwrite the inherited values.
