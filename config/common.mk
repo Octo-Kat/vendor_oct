@@ -65,6 +65,8 @@ PRODUCT_COPY_FILES +=  \
 # T-Mobile theme engine
 include vendor/oct/config/themes_common.mk
 
+PRODUCT_PACKAGE_OVERLAYS += vendor/oct/overlay/common
+
 # Versioning System
 # KitKat OctoKat beta releases
 #PRODUCT_VERSION_MAJOR = 4.4.2
