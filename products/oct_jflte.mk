@@ -27,5 +27,5 @@ PRODUCT_NAME := oct_jflte
 PRODUCT_DEVICE := jflte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := 
+PRODUCT_MODEL := jflte
 endif
