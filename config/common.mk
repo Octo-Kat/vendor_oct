@@ -27,6 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     team-octos.is.awesome=true
     keeping.open-source.open=1
+    debug.egl.recordable.rgba8888=1
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
