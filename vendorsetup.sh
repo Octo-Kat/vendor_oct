@@ -28,3 +28,5 @@ add_lunch_combo oct_tilapia-userdebug
 add_lunch_combo oct_hammerhead-userdebug
 add_lunch_combo oct_mako-userdebug
 add_lunch_combo oct_flo-userdebug
+add_lunch_combo oct_jflte-userdebug
+add_lunch_combo oct_d2lte-userdebug
