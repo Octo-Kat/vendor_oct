@@ -27,5 +27,5 @@ PRODUCT_NAME := oct_d2lte
 PRODUCT_DEVICE := d2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL :=
+PRODUCT_MODEL := d2lte
 endif
