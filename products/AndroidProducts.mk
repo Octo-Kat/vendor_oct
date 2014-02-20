@@ -60,6 +60,9 @@ endif
 ifeq (oct_jfltespr,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltespr.mk
 endif
+ifeq (oct_jflterefreshspr,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflterefreshspr.mk
+endif
 ifeq (oct_jfltetmo,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltetmo.mk
 endif
