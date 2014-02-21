@@ -20,7 +20,7 @@ $(call inherit-product, vendor/oct/config/cdma.mk)
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/samsung/jflterefreshspr/full_jfltespr.mk)
+$(call inherit-product, device/samsung/jflterefreshspr/full_jflterefreshspr.mk)
 
 # Override AOSP build properties
 # Set those variables here to overwrite the inherited values.
