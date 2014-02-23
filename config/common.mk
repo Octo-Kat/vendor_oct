@@ -61,9 +61,9 @@ PRODUCT_PACKAGES += \
     libscreenrecorder \
     ScreenRecorder
 
-# Prebuilt Apps
-PRODUCT_COPY_FILES +=  \
-#    vendor/oct/prebuilt/Torch.apk:system/app/Torch.apk 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1 \
+    dalvik.vm.dexopt-data-only=1
 
 # T-Mobile theme engine
 include vendor/oct/config/themes_common.mk
