@@ -87,3 +87,37 @@ endif
 ifeq (oct_hammerhead,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_hammerhead.mk
 endif
+ifeq (oct_mako,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_mako.mk
+endif
+ifeq (oct_flo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_flo.mk
+endif
+ifeq (oct_deb,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_deb.mk
+endif
+ifeq (oct_grouper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_grouper.mk
+endif
+ifeq (oct_d800,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d800.mk
+endif
+ifeq (oct_d801,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d801.mk
+endif
+ifeq (oct_d802,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d802.mk
+endif
+ifeq (oct_vs980,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_vs980.mk
+endif
+ifeq (oct_ls980,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_ls980.mk
+endif
+ifeq (oct_jewel,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jewel.mk
+endif
+ifeq (oct_evita,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_evita.mk
+endif
+

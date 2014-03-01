@@ -13,20 +13,20 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (oct_jewel,$(TARGET_PRODUCT))
+ifeq (oct_ls980,$(TARGET_PRODUCT))
 
 # Inherit some common OctOS stuff.
 $(call inherit-product, vendor/oct/config/cdma.mk)
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/htc/evita/full_jewel.mk)
+$(call inherit-product, device/lge/ls980/full_ls980.mk)
 
 # Override AOSP build properties
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := jewel
-PRODUCT_NAME := oct_jewel
-PRODUCT_BRAND := htc
-PRODUCT_MODEL := EVO
-PRODUCT_MANUFACTURER := HTC
+PRODUCT_DEVICE := ls980
+PRODUCT_NAME := oct_ls980
+PRODUCT_BRAND := LGE
+PRODUCT_MODEL := LG-LS980
+PRODUCT_MANUFACTURER := lge
 endif
