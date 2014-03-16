@@ -13,19 +13,19 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (oct_grouper,$(TARGET_PRODUCT))
+ifeq (oct_tf701t,$(TARGET_PRODUCT))
 
 # Inherit some common OctOS stuff.
 $(call inherit-product, vendor/oct/config/common_full_tablet_wifionly.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/asus/grouper/aosp_grouper.mk)
+$(call inherit-product, device/asus/tf701t/tf701t.mk)
 
 # Override AOSP build properties
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := grouper
-PRODUCT_NAME := oct_grouper
-PRODUCT_BRAND := Google
-PRODUCT_MODEL := Nexus 7
+PRODUCT_DEVICE := tf701t
+PRODUCT_NAME := oct_tf701t
+PRODUCT_BRAND := asus
+PRODUCT_MODEL := Transformer
 PRODUCT_MANUFACTURER := Asus
 endif

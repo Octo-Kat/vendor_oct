@@ -120,4 +120,7 @@ endif
 ifeq (oct_evita,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_evita.mk
 endif
+ifeq (oct_tf701t,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_tf701t.mk
+endif
 
