@@ -19,7 +19,7 @@ ifeq (oct_flo,$(TARGET_PRODUCT))
 $(call inherit-product, vendor/oct/config/common_full_tablet_wifionly.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/asus/deb/full_flo.mk)
+$(call inherit-product, device/asus/flo/full_flo.mk)
 
 # Override AOSP build properties
 # Set those variables here to overwrite the inherited values.
