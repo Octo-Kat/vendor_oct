@@ -55,6 +55,7 @@ PRODUCT_PACKAGES += \
     OctPhase \
     OctPapers \
     OmniSwitch \
+    KitKatWhite \
     Torch
     
 # Screen recorder
