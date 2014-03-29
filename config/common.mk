@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
 
 # OctOS Packages   
 PRODUCT_PACKAGES += \
+    FileManager \
     HallMonitor \
     LatinIME \
     OctOSAbout \
