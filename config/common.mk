@@ -55,7 +55,6 @@ PRODUCT_PACKAGES += \
     OctPhase \
     OctPapers \
     OmniSwitch \
-    Tentacles \
     Torch
     
 # Screen recorder
