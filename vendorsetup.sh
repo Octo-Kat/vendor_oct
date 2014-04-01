@@ -36,3 +36,4 @@ add_lunch_combo oct_d802-userdebug
 add_lunch_combo oct_ls980-userdebug
 add_lunch_combo oct_vs980-userdebug
 add_lunch_combo oct_tf701t-userdebug
+add_lunch_combo oct_n7000-userdebug
