@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
 
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml]
+    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
     
 # Copy latinime for gesture typing
 PRODUCT_COPY_FILES += \
