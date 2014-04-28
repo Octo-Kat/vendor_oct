@@ -86,7 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/oct/prebuilt/common/apk/Superuser.apk:system/app/Superuser.apk
 
 #init.d support
-vendor/oct/prebuilt/common/bin/sysinit:system/bin/sysinit    
+PRODUCT_COPY_FILES += \
+    vendor/oct/prebuilt/common/bin/sysinit:system/bin/sysinit    
 
 $(KERNEL_OUT):
 	mkdir -p $(KERNEL_OUT)/usr
