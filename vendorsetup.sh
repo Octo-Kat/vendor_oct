@@ -32,3 +32,4 @@ add_lunch_combo oct_flo-userdebug
 add_lunch_combo oct_jflte-userdebug
 add_lunch_combo oct_d2lte-userdebug
 add_lunch_combo oct_hlte-userdebug
+add_lunch_combo oct_geeb-userdebug

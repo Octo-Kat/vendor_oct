@@ -99,3 +99,6 @@ endif
 ifeq (oct_mako,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_mako.mk
 endif
+ifeq (oct_geeb,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_geeb.mk
+endif
