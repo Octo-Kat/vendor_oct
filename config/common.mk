@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
 
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml]
+    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
     
 # Copy latinime for gesture typing
 PRODUCT_COPY_FILES += \
@@ -67,6 +67,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1 \
     dalvik.vm.dexopt-data-only=1
+    
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
 
 # T-Mobile theme engine
 include vendor/oct/config/themes_common.mk

@@ -22,11 +22,10 @@ $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 # Inherit AOSP device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
-# Override AOSP build properties
-# Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := mako
+# Setup device specific product configuration
 PRODUCT_NAME := oct_mako
 PRODUCT_BRAND := google
+PRODUCT_DEVICE := mako
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 endif

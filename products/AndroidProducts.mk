@@ -12,62 +12,51 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq (oct_d2att,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2att.mk
-endif
-ifeq (oct_d2cri,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2cri.mk
-endif
-ifeq (oct_d2mtr,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2mtr.mk
-endif
-ifeq (oct_d2spr,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2spr.mk
-endif
-ifeq (oct_d2spi,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2spi.mk
-endif
-ifeq (oct_d2tmo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2tmo.mk
-endif
-ifeq (oct_d2usc,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2usc.mk
-endif
+
 ifeq (oct_d2vzw,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2vzw.mk
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2lte.mk
+endif
+ifeq (oct_d800,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d800.mk
+endif
+ifeq (oct_d801,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d801.mk
+endif
+ifeq (oct_d802,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d802.mk
+endif
+ifeq (oct_deb,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_deb.mk
 endif
 ifeq (oct_epicmtd,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_epicmtd.mk
 endif
-ifeq (oct_jflteatt,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflteatt.mk
+ifeq (oct_evita,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_evita.mk
 endif
-ifeq (oct_jfltecan,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltecan.mk
+ifeq (oct_flo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_flo.mk
 endif
-ifeq (oct_jfltecri,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltecri.mk
+ifeq (oct_geeb,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_geeb.mk
 endif
-ifeq (oct_jfltecsp,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltecsp.mk
+ifeq (oct_grouper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_grouper.mk
 endif
-ifeq (oct_jfltespr,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltespr.mk
+ifeq (oct_hammerhead,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_hammerhead.mk
 endif
-ifeq (oct_jflterefreshspr,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflterefreshspr.mk
+ifeq (oct_hlte,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_hlte.mk
 endif
-ifeq (oct_jfltetmo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltetmo.mk
+ifeq (oct_jewel,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jewel.mk
 endif
-ifeq (oct_jflteusc,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflteusc.mk
+ifeq (oct_jflte,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jflte.mk
 endif
-ifeq (oct_jfltevzw,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltevzw.mk
-endif
-ifeq (oct_jfltexx,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jfltexx.mk
+ifeq (oct_ls980,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_ls980.mk
 endif
 ifeq (oct_m7att,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_m7att.mk
@@ -84,46 +73,18 @@ endif
 ifeq (oct_m7vzw,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_m7vzw.mk
 endif
-ifeq (oct_hammerhead,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_hammerhead.mk
-endif
 ifeq (oct_mako,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_mako.mk
-endif
-ifeq (oct_flo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_flo.mk
-endif
-ifeq (oct_deb,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_deb.mk
-endif
-ifeq (oct_grouper,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_grouper.mk
-endif
-ifeq (oct_d800,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d800.mk
-endif
-ifeq (oct_d801,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d801.mk
-endif
-ifeq (oct_d802,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d802.mk
-endif
-ifeq (oct_vs980,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_vs980.mk
-endif
-ifeq (oct_ls980,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_ls980.mk
-endif
-ifeq (oct_jewel,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_jewel.mk
-endif
-ifeq (oct_evita,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_evita.mk
-endif
-ifeq (oct_tf701t,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_tf701t.mk
 endif
 ifeq (oct_n7000,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_n7000.mk
 endif
-
+ifeq (oct_tilapia,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_tilapia.mk
+endif
+ifeq (oct_tf701t,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_tf701t.mk
+endif
+ifeq (oct_vs980,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_vs980.mk
+endif
