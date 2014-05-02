@@ -102,3 +102,9 @@ endif
 ifeq (oct_geeb,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_geeb.mk
 endif
+ifeq (oct_grouper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_grouper.mk
+endif
+ifeq (oct_flo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_flo.mk
+endif
