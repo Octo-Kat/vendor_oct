@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-ifeq (oct_d2vzw,$(TARGET_PRODUCT))
+ifeq (oct_d2lte,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_d2lte.mk
 endif
 ifeq (oct_d800,$(TARGET_PRODUCT))
