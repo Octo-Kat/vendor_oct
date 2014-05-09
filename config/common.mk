@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AndroidKernelTweaker \
     FileManager \
+    GummyFileManager \
     HallMonitor \
     LatinIME \
     OctOSAbout \
@@ -88,6 +89,13 @@ PRODUCT_COPY_FILES += \
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/oct/prebuilt/common/bin/sysinit:system/bin/sysinit
+
+# Stagefright FFMPEG plugin
+PRODUCT_PACKAGES += \
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
+    libnamparser
 
 # Versioning System
 # KitKat OctoKat beta releases
