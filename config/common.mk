@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AndroidKernelTweaker \
     FileManager \
-    GummyFileManager \
     HallMonitor \
     LatinIME \
     OctOSAbout \
