@@ -1,0 +1,18 @@
+  <!-- Samsung Devices -->           
+  <remote name="tm"
+           fetch="https://github.com/TheMuppets/"
+           sync-c="true"
+           sync-j="12" />
+           
+           
+  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="sp" revision="kk-444" />
+  <project path="device/samsung/d2lte" name="platform_device_samsung_d2lte" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="sp" revision="kk-444" />
+  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="sp" revision="kk-4.4_new" />
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="sp" revision="kk-4.4" />
+  <project path="kernel/samsung/hlte" name="platform_kernel_samsung_hlte" remote="sp" revision="kk-4.4" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
+  
