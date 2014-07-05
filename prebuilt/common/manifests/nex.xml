@@ -1,6 +1,0 @@
- 
-  <!-- HammerHead -->
-  <project path="vendor/lge" name="platform_vendor_lge" remote="ok" revision="kk-4.4" />
-  <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="ok" revision="kk-4.4" />
- 
