@@ -15,7 +15,6 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="jet" name="jet" remote="ok" revision="kk-4.4" />
   <project path="external/skia" name="platform_external_skia" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="ok" revision="kk-4.4" />
