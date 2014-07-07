@@ -85,6 +85,9 @@ endif
 ifeq (oct_tf701t,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_tf701t.mk
 endif
+ifeq (oct_toro,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_toro.mk
+endif
 ifeq (oct_vs980,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_vs980.mk
 endif
