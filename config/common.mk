@@ -57,8 +57,7 @@ PRODUCT_PACKAGES += \
     OctPapers \
     OmniSwitch \
     StockWhite \
-    Torch \
-    OCTota
+    Torch 
     
 # Screen recorder
 PRODUCT_PACKAGES += \
