@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
     FileManager \
     HallMonitor \
     LatinIME \
+    Launcher3 \
     OctOSAbout \
     OctSun \
     OctOTA \
