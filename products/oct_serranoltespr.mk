@@ -21,10 +21,15 @@ $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/oct/config/nfc_enhanced.mk)
 
+# Inherit AOSP device configuration
 $(call inherit-product, device/samsung/serranoltespr/full_serranoltespr.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=serranoltespr TARGET_DEVICE=serranoltespr BUILD_FINGERPRINT="samsung/serranoltespr/serranoltespr:4.2.2/JDQ39/L520VPUAMK2:user/release-keys" PRIVATE_BUILD_DESC="serranoltespr-user 4.2.2 JDQ39 L520VPUAMK2 release-keys
-
+# Override AOSP build properties
+# Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := serranoltespr
 PRODUCT_NAME := oct_serranoltespr
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := SCH-L520
+
 endif
