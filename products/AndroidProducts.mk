@@ -82,6 +82,9 @@ endif
 ifeq (oct_serranoltespr,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_serranoltespr.mk
 endif
+ifeq (oct_serranolteusc,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_serranolteusc.mk
+endif
 ifeq (oct_serranoltexx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_serranoltexx.mk
 endif
