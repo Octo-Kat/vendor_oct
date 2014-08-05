@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (oct_serranoltespr,$(TARGET_PRODUCT))
+ifeq (oct_serranolteusc,$(TARGET_PRODUCT))
 
 # Inherit some common OctOS stuff.
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
@@ -22,14 +22,14 @@ $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 $(call inherit-product, vendor/oct/config/nfc_enhanced.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/samsung/serranoltespr/full_serranoltespr.mk)
+$(call inherit-product, device/samsung/serranolteusc/full_serranolteusc.mk)
 
 # Override AOSP build properties
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := serranoltespr
-PRODUCT_NAME := oct_serranoltespr
+PRODUCT_DEVICE := serranolteusc
+PRODUCT_NAME := oct_serranolteusc
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SCH-L520
+PRODUCT_MODEL := SCH-R890
 
 endif
