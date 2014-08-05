@@ -22,6 +22,7 @@ add_lunch_combo oct_mako-userdebug
 add_lunch_combo oct_n7000-userdebug
 add_lunch_combo oct_serranoltespr-userdebug
 add_lunch_combo oct_serranoltexx-userdebug
+add_lunch_combo oct_serranolteusc-userdebug
 add_lunch_combo oct_tilapia-userdebug
 add_lunch_combo oct_tf701t-userdebug
 add_lunch_combo oct_toro-userdebug
