@@ -88,6 +88,9 @@ endif
 ifeq (oct_serranoltexx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_serranoltexx.mk
 endif
+ifeq (oct_p4wifi,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_p4wifi.mk
+endif
 ifeq (oct_tilapia,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_tilapia.mk
 endif

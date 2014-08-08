@@ -24,6 +24,7 @@ add_lunch_combo oct_serranoltespr-userdebug
 add_lunch_combo oct_serranoltexx-userdebug
 add_lunch_combo oct_serranolteusc-userdebug
 add_lunch_combo oct_tilapia-userdebug
+add_lunch_combo oct_p4wifi-userdebug
 add_lunch_combo oct_tf701t-userdebug
 add_lunch_combo oct_toro-userdebug
 add_lunch_combo oct_vs980-userdebug
