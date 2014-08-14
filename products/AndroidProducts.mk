@@ -79,6 +79,9 @@ endif
 ifeq (oct_n7000,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_n7000.mk
 endif
+ifeq (oct_lt02ltespr,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_lt02ltespr.mk
+endif
 ifeq (oct_serranoltespr,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oct_serranoltespr.mk
 endif

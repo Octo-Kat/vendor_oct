@@ -20,6 +20,7 @@ add_lunch_combo oct_m7ul-userdebug
 add_lunch_combo oct_m7vzw-userdebug
 add_lunch_combo oct_mako-userdebug
 add_lunch_combo oct_n7000-userdebug
+add_lunch_combo oct_lt02ltespr-userdebug
 add_lunch_combo oct_serranoltespr-userdebug
 add_lunch_combo oct_serranoltexx-userdebug
 add_lunch_combo oct_serranolteusc-userdebug
