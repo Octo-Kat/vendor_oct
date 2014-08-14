@@ -10,6 +10,7 @@ add_lunch_combo oct_geeb-userdebug
 add_lunch_combo oct_grouper-userdebug
 add_lunch_combo oct_hammerhead-userdebug
 add_lunch_combo oct_hlte-userdebug
+add_lunch_combo oct_t0lte-userdebug
 add_lunch_combo oct_jewel-userdebug
 add_lunch_combo oct_jflte-userdebug
 add_lunch_combo oct_ls980-userdebug
