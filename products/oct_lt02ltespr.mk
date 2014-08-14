@@ -5,8 +5,8 @@
 # Check for target product
 ifeq (oct_lt02ltespr,$(TARGET_PRODUCT))
 
-# Inherit AOSP configuration for lt02ltespr.
-$(call inherit-product, $(SRC_TARGET_DIR)/samsung/full_lt02ltespr.mk)
+# Inherit AOSP device configuration
+$(call inherit-product, device/samsung/lt02ltespr/full_lt02ltespr.mk)
 
 # Inherit some common OctOS stuff.
 $(call inherit-product, vendor/oct/config/cdma.mk)
