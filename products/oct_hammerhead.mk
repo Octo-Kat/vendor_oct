@@ -15,6 +15,10 @@
 # Check for target product
 ifeq (oct_hammerhead,$(TARGET_PRODUCT))
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Inherit some common OctOS stuff.
 $(call inherit-product, vendor/oct/config/gsm.mk)
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
