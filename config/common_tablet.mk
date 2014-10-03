@@ -1,5 +1,5 @@
 # common
-$(call inherit-product, vendor/carbon/config/common.mk)
+$(call inherit-product, vendor/oct/config/common.mk)
 
 # ringtones
 PRODUCT_PROPERTY_OVERRIDES += \

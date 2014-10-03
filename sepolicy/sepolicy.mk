@@ -1,10 +1,10 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Carbon
+# inherit from Oct
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/carbon/sepolicy
+    vendor/oct/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     file.te \

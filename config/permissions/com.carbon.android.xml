@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<!-- This feature shows that this is Carbon based -->
+<!-- This feature shows that this is Oct based -->
 <permissions>
-    <feature name="com.carbon.android" />
+    <feature name="com.oct.android" />
 </permissions>

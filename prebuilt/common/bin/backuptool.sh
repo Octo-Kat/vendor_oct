@@ -5,7 +5,7 @@
 
 export C=/tmp/backupdir
 export S=/system
-export V=CARBON-KK
+export V=OCT-KK
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
@@ -22,7 +22,7 @@ restore_addon_d() {
 
 # Proceed only if /system is the expected major and minor version
 check_prereq() {
-if ( ! grep -q "^ro.carbon.version=$V.*" /system/build.prop ); then
+if ( ! grep -q "^ro.oct.version=$V.*" /system/build.prop ); then
   echo "Not backing up files from incompatible version: $V"
   return 0
 fi
