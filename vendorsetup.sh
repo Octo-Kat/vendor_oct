@@ -13,6 +13,7 @@ add_lunch_combo oct_hammerhead-userdebug
 add_lunch_combo oct_hercules-userdebug
 add_lunch_combo oct_hlte-userdebug
 add_lunch_combo oct_hltespr-userdebug
+add_lunch_combo oct_hltevzw-userdebug
 add_lunch_combo oct_i605-userdebug
 add_lunch_combo oct_i9082-userdebug
 add_lunch_combo oct_i9100-userdebug
