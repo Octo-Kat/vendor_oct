@@ -90,8 +90,6 @@ PRODUCT_PACKAGES += \
     PhotoPhase \
     PhotoTable \
     SoundRecorder \
-    Superuser \
-    su \
     Torch \
     VisualizationWallpapers \
     VoicePlus \
@@ -99,10 +97,6 @@ PRODUCT_PACKAGES += \
 
 # oct packages
 PRODUCT_PACKAGES += \
-    BlueBalls \
-    OctAbout \
-    OctDelta \
-    ROMStats \
     Wallpapers
 
 # DSPManager
@@ -180,6 +174,13 @@ PRODUCT_COPY_FILES += \
     vendor/oct/prebuilt/common/xbin/sysrw:system/xbin/sysrw \
     vendor/oct/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/oct/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    
+# Supersu
+PRODUCT_COPY_FILES += \
+    vendor/oct/prebuilt/common/bin/su:system/xbin/daemonsu \
+    vendor/oct/prebuilt/common/bin/su:system/xbin/su \
+    vendor/oct/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/oct/prebuilt/common/apk/Superuser.apk:system/app/Superuser.apk
 
 # Backup tool
 OCT_BUILD = true
