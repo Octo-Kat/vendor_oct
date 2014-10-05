@@ -180,7 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/oct/prebuilt/common/bin/su:system/xbin/daemonsu \
     vendor/oct/prebuilt/common/bin/su:system/xbin/su \
     vendor/oct/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-    vendor/oct/prebuilt/common/apk/Superuser.apk:system/app/Superuser.apk
+    vendor/oct/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
 
 # Backup tool
 OCT_BUILD = true
