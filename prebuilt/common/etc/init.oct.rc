@@ -1,6 +1,8 @@
 # Oct Extras
 
-import /init.superuser.rc
+service su_daemon /system/xbin/daemonsu --auto-daemon
+    class main
+    oneshot
 
 on init
     export TERMINFO /system/etc/terminfo
