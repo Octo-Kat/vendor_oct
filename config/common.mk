@@ -1,9 +1,6 @@
 # brand
 PRODUCT_BRAND ?= Oct
 
-# SuperUser
-SUPERUSER_EMBEDDED := true
-
 ifneq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
 # determine the smaller dimension
 TARGET_BOOTANIMATION_SIZE := $(shell \
