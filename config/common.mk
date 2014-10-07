@@ -192,6 +192,10 @@ PRODUCT_COPY_FILES += \
 # sip/voip
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+    
+# Copy latinime for gesture typing
+PRODUCT_COPY_FILES += \
+    vendor/oct/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # nfc
 PRODUCT_COPY_FILES += \
