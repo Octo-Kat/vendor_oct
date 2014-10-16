@@ -73,7 +73,7 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     Camera \
     Development \
-    CMFileManager \
+    FileManager \
     Galaxy4 \
     HoloSpiralWallpaper \
     LatinIME \
