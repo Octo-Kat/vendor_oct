@@ -83,6 +83,8 @@ PRODUCT_PACKAGES += \
     MagicSmokeWallpapers \
     NoiseField \
     OmniSwitch \
+    OctPhase \
+    OctSun \
     PhaseBeam \
     PhotoPhase \
     PhotoTable \
