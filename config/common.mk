@@ -149,6 +149,10 @@ PRODUCT_PACKAGES += \
 # languages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+# Copy latinime for gesture typing
+PRODUCT_COPY_FILES += \
+vendor/oct/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
 # themes
 include vendor/oct/config/theme_chooser.mk
 
