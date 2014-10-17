@@ -175,11 +175,8 @@ PRODUCT_COPY_FILES += \
     vendor/oct/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
     
 # Supersu
-PRODUCT_COPY_FILES += \
-    vendor/oct/prebuilt/common/bin/su:system/xbin/daemonsu \
-    vendor/oct/prebuilt/common/bin/su:system/xbin/su \
-    vendor/oct/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-    vendor/oct/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
+PRODUCT_PACKAGES += \
+    SuperSu
 
 # Backup tool
 OCT_BUILD = true
@@ -194,10 +191,6 @@ PRODUCT_COPY_FILES += \
 # sip/voip
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-    
-# Copy latinime for gesture typing
-PRODUCT_COPY_FILES += \
-    vendor/oct/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # nfc
 PRODUCT_COPY_FILES += \
