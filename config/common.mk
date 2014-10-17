@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     Galaxy4 \
     HoloSpiralWallpaper \
     LatinIME \
+    Launcher3 \
     LiveWallpapers \
     LiveWallpapersPicker \
     LockClock \
