@@ -97,6 +97,7 @@ PRODUCT_PACKAGES += \
 
 # oct packages
 PRODUCT_PACKAGES += \
+    BlueBalls \
     Wallpapers
 
 # DSPManager
