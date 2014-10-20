@@ -182,14 +182,14 @@ PRODUCT_COPY_FILES += \
     
 # Supersu
 PRODUCT_COPY_FILES += \
-    vendor/chainsdd/SuperSU/proprietary/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/chainsdd/SuperSU/proprietary/xbin/chattr:system/xbin/chattr \
-    vendor/chainsdd/SuperSU/proprietary/xbin/su:system/xbin/daemonsu \
-    vendor/chainsdd/SuperSU/proprietary/xbin/su:system/xbin/su \
-    vendor/chainsdd/SuperSU/proprietary/xbin/sugote:system/xbin/sugote \
-    vendor/chainsdd/SuperSU/proprietary/xbin/sugote-mksh:system/xbin/sugote-mksh \
-    vendor/chainsdd/SuperSU/proprietary/xbin/supolicy:system/xbin/supolicy \
-    vendor/chainsdd/SuperSU/proprietary/etc/init.d/99SuperSuDaemon:system/etc/init.d/99SuperSuDaemon
+    vendor/chainfire/SuperSU/proprietary/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/chainfire/SuperSU/proprietary/xbin/chattr:system/xbin/chattr \
+    vendor/chainfire/SuperSU/proprietary/xbin/su:system/xbin/daemonsu \
+    vendor/chainfire/SuperSU/proprietary/xbin/su:system/xbin/su \
+    vendor/chainfire/SuperSU/proprietary/xbin/sugote:system/xbin/sugote \
+    vendor/chainfire/SuperSU/proprietary/xbin/sugote-mksh:system/xbin/sugote-mksh \
+    vendor/chainfire/SuperSU/proprietary/xbin/supolicy:system/xbin/supolicy \
+    vendor/chainfire/SuperSU/proprietary/etc/init.d/99SuperSuDaemon:system/etc/init.d/99SuperSuDaemon
 
 # Backup tool
 OCT_BUILD = true
