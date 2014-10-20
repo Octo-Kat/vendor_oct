@@ -1,9 +1,5 @@
 add_lunch_combo oct_bacon-userdebug
-add_lunch_combo oct_d2dcm-userdebug
 add_lunch_combo oct_d2lte-userdebug
-add_lunch_combo oct_d800-userdebug
-add_lunch_combo oct_d801-userdebug
-add_lunch_combo oct_d802-userdebug
 add_lunch_combo oct_deb-userdebug
 add_lunch_combo oct_endeavoru-userdebug
 add_lunch_combo oct_exhilarate-userdebug
@@ -13,10 +9,9 @@ add_lunch_combo oct_hammerhead-userdebug
 add_lunch_combo oct_hercules-userdebug
 add_lunch_combo oct_hlte-userdebug
 add_lunch_combo oct_hltespr-userdebug
-add_lunch_combo oct_hltevzw-userdebug
 add_lunch_combo oct_hlteusc-userdebug
+add_lunch_combo oct_hltevzw-userdebug
 add_lunch_combo oct_i605-userdebug
-add_lunch_combo oct_i9082-userdebug
 add_lunch_combo oct_i9100-userdebug
 add_lunch_combo oct_i9300-userdebug
 add_lunch_combo oct_i9305-userdebug
@@ -24,8 +19,10 @@ add_lunch_combo oct_i9500-userdebug
 add_lunch_combo oct_infuse4g-userdebug
 add_lunch_combo oct_jflte-userdebug
 add_lunch_combo oct_klte-userdebug
+add_lunch_combo oct_kltespr-userdebug
+add_lunch_combo oct_klteusc-userdebug
+add_lunch_combo oct_kltevzw-userdebug
 add_lunch_combo oct_l900-userdebug
-add_lunch_combo oct_ls980-userdebug
 add_lunch_combo oct_m7-userdebug
 add_lunch_combo oct_m7spr-userdebug
 add_lunch_combo oct_m7vzw-userdebug
@@ -44,7 +41,5 @@ add_lunch_combo oct_skyrocket-userdebug
 add_lunch_combo oct_t0lte-userdebug
 add_lunch_combo oct_t769-userdebug
 add_lunch_combo oct_taoshan-userdebug
-add_lunch_combo oct_tf101-userdebug
 add_lunch_combo oct_toro-userdebug
 add_lunch_combo oct_toroplus-userdebug
-add_lunch_combo oct_vs980-userdebug
