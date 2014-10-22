@@ -171,7 +171,7 @@ PRODUCT_COPY_FILES += \
 
 # etc
 PRODUCT_COPY_FILES += \
-    vendor/oct/prebuilt/common/etc/init.oct.rc:root/init.oct.rc
+    vendor/oct/prebuilt/common/etc/init.carbon.rc:root/init.carbon.rc
 
 # prebuilt
 PRODUCT_COPY_FILES += \
