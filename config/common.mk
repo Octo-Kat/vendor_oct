@@ -242,7 +242,8 @@ else
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-  ro.oct.version=$(OCT_VERSION)
+  ro.oct.version=$(OCT_VERSION) \
+  ro.oct.device=$(OCT_DEVICE)
 
 # ROM Statistics and ROM Identification
 PRODUCT_PROPERTY_OVERRIDES += \
