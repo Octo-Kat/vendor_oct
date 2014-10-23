@@ -83,6 +83,7 @@ PRODUCT_PACKAGES += \
     LockClock \
     MagicSmokeWallpapers \
     NoiseField \
+    OctDelta \
     OmniSwitch \
     OctPhase \
     OctSun \
