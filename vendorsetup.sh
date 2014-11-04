@@ -36,6 +36,7 @@ add_lunch_combo oct_n7000-userdebug
 add_lunch_combo oct_n7100-userdebug
 add_lunch_combo oct_n801x-userdebug
 add_lunch_combo oct_peregrine-userdebug
+add_lunch_combo oct_serranolteusc-userdebug
 add_lunch_combo oct_sirius-userdebug
 add_lunch_combo oct_skyrocket-userdebug
 add_lunch_combo oct_t0lte-userdebug
